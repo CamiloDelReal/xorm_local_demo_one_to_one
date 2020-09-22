@@ -11,9 +11,7 @@ XPage {
     XSplashPane {
         anchors.fill: parent
         Material.background: Material.color(ApplicationSettingsObj.primaryColor, Material.Shade500)
-        logo: "qrc:/img/app/logo_foreground.svg"
-        logoWidth: 92
-        logoHeight: 92
+        logo.source: "qrc:/img/app/logo_foreground.svg"
     }
 }
 
