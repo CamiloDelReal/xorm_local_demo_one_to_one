@@ -1,6 +1,6 @@
-import QtQuick 2.14
-import QtQuick.Controls 2.14
-import QtQuick.Controls.Material 2.14
+import QtQuick
+import QtQuick.Controls
+import QtQuick.Controls.Material
 
 import "qrc:/qml"
 
@@ -12,6 +12,7 @@ XPage {
         anchors.fill: parent
         Material.background: Material.color(ApplicationSettingsObj.primaryColor, Material.Shade500)
         logo.source: "qrc:/img/app/logo_foreground.svg"
+        logo.sourceSize: Qt.size(92, 92)
     }
 }
 
