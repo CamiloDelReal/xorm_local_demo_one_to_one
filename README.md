@@ -1,6 +1,9 @@
 # XOrm persistance with One to One relationship
 One to One relationship using XOrm library
 
+## This project will not be maintenance anymore
+I am not working for Qt since a while and updates started to become hard after so much changes in Qt 6
+
 ### Features
 - Members
   * CRUD operations
